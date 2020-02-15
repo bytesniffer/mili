@@ -14,8 +14,8 @@ export default {
         host: 'localhost',
         port: 3306,
         charset: 'utf8mb4',
-        username: '',
-        password: '',
+        username: 'root',
+        password: '123456',
         database: 'mili',
         synchronize: false,
         entities: [path.join(__dirname, '../entity/**/*.entity{.ts,.js}')],
@@ -28,7 +28,7 @@ export default {
         port: 6379,
         keyPrefix: 'mili:',
         family: 4, // 4 (IPv4) or 6 (IPv6)
-        password: '',
+        password: '123456',
         db: 0,
     },
     static: {
